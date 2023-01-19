@@ -1,0 +1,11 @@
+project:
+  type: r3-theme
+
+type:
+  book
+title: Testing
+format:
+  r3-theme-html: default
+  r3-theme-revealjs: default
+author: Luke W. Johnston
+date: last-modified
