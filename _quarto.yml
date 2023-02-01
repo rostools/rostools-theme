@@ -1,11 +1,36 @@
 project:
   type: r3-theme
+  # pre-render: quarto render slides/*.qmd
+  # resources:
+  #   - slides/*.html
 
-type:
-  book
-title: Testing
+book:
+  title: Testing
+  author: Luke W. Johnston
+  date: last-modified
+  repo-url: https://github.com/rostools/r-cubed
+  chapters:
+    - index.qmd
+    - part: "Preamble"
+      chapters:
+      - preamble/syllabus.qmd
+      - preamble/schedule.qmd
+      - preamble/pre-course.qmd
+    - part: "Sessions"
+      chapters:
+      - sessions/introduction.qmd
+      - sessions/lesson.qmd
+      - sessions/what-next.qmd
+  appendices:
+    - appendix/social.qmd
+    - appendix/for-instructors.qmd
+    - appendix/references.qmd
+    # - LICENSE.md
+
 format:
   r3-theme-html: default
-  r3-theme-revealjs: default
-author: Luke W. Johnston
-date: last-modified
+
+editor_options:
+  markdown:
+    wrap: 72
+    canonical: true
