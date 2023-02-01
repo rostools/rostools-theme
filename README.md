@@ -21,9 +21,17 @@ This theme also depends on other extensions, like fontawesome:
 quarto add quarto-ext/fontawesome
 ```
 
+It also has an associated GitHub Action to use:
+
+``` r
+usethis::use_github_action(
+  "build-website", 
+  url = "https://github.com/rostools/r3-theme/blob/main/.github/workflows/build-website.yml"
+)
+```
+
 To **update** the `r3-theme`, run:
 
 ``` bash
 quarto update rostools/r3-theme
 ```
-
