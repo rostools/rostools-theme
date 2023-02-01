@@ -1,6 +1,6 @@
 project:
   type: r3-theme
-  # pre-render: quarto render slides/*.qmd
+  # pre-render: bash _build-slides.sh
   # resources:
   #   - slides/*.html
 
