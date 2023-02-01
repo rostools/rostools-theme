@@ -3,3 +3,9 @@
 .Rdata
 .httr-oauth
 .DS_Store
+
+/.quarto/
+public
+_freeze
+_extensions/quarto-ext
+.Rbuildignore
