@@ -1,23 +1,29 @@
-# <%= title %> Format
+# r3-theme Format
+
+This theme is used for the various `r-cubed` websites.
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
-```bash
-quarto use template <github-organization>/<%= filesafename %>
+``` bash
+quarto use template rostools/r3-theme
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+This will install the extension and add the template files and folders.
+To install only the theme itself, not the added files, use:
 
-## Using
+``` bash
+quarto add rostools/r3-theme
+```
 
-*TODO*: Describe how to use your format.
+This theme also depends on other extensions, like fontawesome:
 
-## Format Options
+``` bash
+quarto add quarto-ext/fontawesome
+```
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+To **update** the `r3-theme`, run:
 
-## Example
+``` bash
+quarto update rostools/r3-theme
+```
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
