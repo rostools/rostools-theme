@@ -25,12 +25,17 @@ book:
     - appendix/social.qmd
     - appendix/for-instructors.qmd
     - appendix/references.qmd
-    # - LICENSE.md
+  page-footer:
+    center:
+      - text: "License: CC BY 4.0 {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}"
+        href: LICENSE.html
+      - text: "Code of Conduct"
+        href: "https://guides.rostools.org/conduct.html"
 
 format:
   r3-theme-html: default
 
-editor_options:
+editor:
   markdown:
     wrap: 72
     canonical: true

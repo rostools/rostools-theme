@@ -36,11 +36,6 @@ contributes:
       search:
         location: navbar
         type: overlay
-      page-footer:
-        center:
-          - text: "License: CC BY 4.0 {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}"
-          - text: "Code of Conduct"
-            href: "https://guides.rostools.org/conduct.html"
 
     execute:
       freeze: auto
