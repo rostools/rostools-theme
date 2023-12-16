@@ -5,6 +5,8 @@ quarto-required: ">=1.2.0"
 contributes:
   format:
     html:
+      highlight-style: a11y
+      code-line-numbers: true
       df-print: tibble
       code-overflow: scroll
       from: markdown+emoji
