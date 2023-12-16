@@ -50,7 +50,6 @@ contributes:
 
     knitr:
       opts_chunk:
-        class-output: sourceCode
         comment: "#>"
         fig-dpi: 72
         fig-width: 5.5
