@@ -26,7 +26,7 @@ It also has an associated GitHub Action to use:
 ``` r
 usethis::use_github_action(
   "build-website", 
-  url = "https://github.com/rostools/r3-theme/blob/main/.github/workflows/build-website.yml"
+  url = "https://raw.githubusercontent.com/quarto-dev/quarto-actions/main/examples/quarto-publish-example.yml"
 )
 ```
 
