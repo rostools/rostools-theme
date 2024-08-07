@@ -8,7 +8,13 @@
 
 <!-- TODO: Add an introduction here -->
 
-**Session objectives**:
+## Learning objectives
+
+The overall learning outcome for this session is to:
+
+1. 
+
+Specific learning objectives are:
 
 ## TODO: Section
 
