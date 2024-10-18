@@ -1,11 +1,8 @@
-# r-cubed: TODO TITLE <img src="_extensions/r3-theme/favicon.ico" align="right" height="100"/>
+# TODO TITLE
 
 ## Description
 
-Reproducibility and open scientific practices are increasingly being
-requested or required of scientists and researchers, but training on
-these practices has not kept pace. This course intends to help bridge
-that gap and covers the fundamentals and workflow of data analysis in R.
+TODO: Very brief intro, motivation, and overview of course.
 
 This repository contains the lesson, lecture, and assignment material
 for the course, including the website source files and other associated
@@ -64,7 +61,7 @@ your own would be the slides, however, they are also good enough to use
 on their own too.
 
 But if you want to customize a bit more, the best approach is to [fork
-the repository]() into your own GitLab account and modify it to fit your
+the repository](TODO) into your own GitLab account and modify it to fit your
 needs from there. The website is built automatically with GitHub Actions
 and then published as a website through Netlify. More detail on how to
 build your own website from the material is outside the scope of this
