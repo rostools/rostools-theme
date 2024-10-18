@@ -7,6 +7,7 @@ group:
     repos: |
       rostools/coding-club
       rostools/r-cubed
+      rostools/cog-flow-intro
       rostools/r-cubed-advanced
       rostools/r-cubed-intermediate
       rostools/r-cubed-intro
