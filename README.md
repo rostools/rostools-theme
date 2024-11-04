@@ -35,3 +35,13 @@ To **update** the `r3-theme`, run:
 ``` bash
 quarto update rostools/r3-theme
 ```
+
+## Configuring
+
+If you want to build Quarto Reveal.js slides that are kept in `slides/`
+and want to use the `r3-theme-revealjs` theme, copy a relative soft-link
+to the `_extensions/` folder and paste in the `slides/` file:
+
+``` bash
+ln -s -r _extension slides
+```
