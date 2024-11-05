@@ -42,6 +42,7 @@ contributes:
 
     callout-appearance: minimal
     reference-location: margin
+    citation-location: margin
     crossref:
       chapters: true
 
