@@ -45,3 +45,5 @@ contributes:
     crossref:
       chapters: true
 
+    execute:
+      freeze: auto
