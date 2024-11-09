@@ -6,8 +6,6 @@ group:
         dest: justfile
       - source: .gitignore
         dest: .gitignore
-      - source: slides/_extensions/
-        dest: slides/_extensions/
     repos: |
       rostools/coding-club
       rostools/r-cubed
