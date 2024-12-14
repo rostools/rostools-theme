@@ -15,12 +15,6 @@ To install only the theme itself, not the added files, use:
 quarto add rostools/r3-theme
 ```
 
-This theme also depends on other extensions, like fontawesome:
-
-``` bash
-quarto add quarto-ext/fontawesome
-```
-
 It also has an associated GitHub Action to use:
 
 ``` r
@@ -45,3 +39,4 @@ to the `_extensions/` folder and paste in the `slides/` file:
 ``` bash
 ln -s -r _extension slides
 ```
+
