@@ -6,6 +6,8 @@ group:
       - source: .github/workflows/
         dest: .github/workflows/
         deleteOrphaned: true
+        exclude: |
+          sync-files.yml
       - source: .vscode/
         dest: .vscode/
         deleteOrphaned: true
