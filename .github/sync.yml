@@ -2,6 +2,13 @@ group:
   - files:
       - source: _extensions/r3-theme/
         dest: _extensions/rostools/r3-theme/
+        deleteOrphaned: true
+      - source: .github/workflows/
+        dest: .github/workflows/
+        deleteOrphaned: true
+      - source: .vscode/
+        dest: .vscode/
+        deleteOrphaned: true
       - source: justfile
         dest: justfile
       - source: .gitignore
