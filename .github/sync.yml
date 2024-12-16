@@ -1,25 +1,60 @@
 group:
+  # All repositories
   - files:
       - source: _extensions/r3-theme/
         dest: _extensions/rostools/r3-theme/
         deleteOrphaned: true
-      - source: .github/workflows/
-        dest: .github/workflows/
-        deleteOrphaned: true
-        exclude: |
-          sync-files.yml
       - source: .vscode/
         dest: .vscode/
         deleteOrphaned: true
-      - source: justfile
-        dest: justfile
       - source: .gitignore
         dest: .gitignore
     repos: |
       rostools/coding-club
       rostools/r-cubed
-      rostools/cog-flow-intro
+      rostools/git4cats
       rostools/r-cubed-advanced
       rostools/r-cubed-intermediate
       rostools/r-cubed-intro
       rostools/guides
+
+  # Completed and R-based repositories
+  - files:
+      - source: .github/workflows/common/add-to-project.yml
+        dest: .github/workflows/add-to-project.yml
+      - source: .github/workflows/common/build-website-r.yml
+        dest: .github/workflows/build-website.yml
+      - source: _common/justfile-r
+        dest: justfile
+    repos: |
+      rostools/coding-club
+      rostools/r-cubed-advanced
+      rostools/r-cubed-intermediate
+      rostools/r-cubed-intro
+      rostools/guides
+
+  # In development and R-based repositories
+  - files:
+      - source: .github/workflows/common/add-to-project-dev.yml
+        dest: .github/workflows/add-to-project.yml
+      - source: .github/workflows/common/build-website-r.yml
+        dest: .github/workflows/build-website.yml
+      - source: justfile
+        dest: justfile
+    repos: |
+      rostools/r-pkg-intro
+      rostools/r-cubed-ise
+
+  # In development and non-R-based repositories
+  - files:
+      - source: .github/workflows/common/add-to-project-dev.yml
+        dest: .github/workflows/add-to-project.yml
+      - source: .github/workflows/common/build-website.yml
+        dest: .github/workflows/build-website.yml
+      - source: justfile
+        dest: justfile
+    repos: |
+      rostools/tutorial-github-intro
+      rostools/tutorial-project-management-intro
+      rostools/tutorial-quarto-website-intro
+      rostools/git4cats
