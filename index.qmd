@@ -1,3 +1,17 @@
 # Welcome!
 
 {{< include includes/_wip.qmd >}}
+
+## Test the shortcodes
+
+{{< text_snippet review_note >}}
+
+{{< text_snippet wip >}}
+
+{{< text_snippet sticky_up >}}
+
+{{< text_snippet faq_text >}}
+
+{{< text_snippet code_appendix >}}
+
+{{< text_snippet discord_text >}}
