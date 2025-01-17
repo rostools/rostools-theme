@@ -10,6 +10,9 @@ group:
       - source: .gitignore
         dest: .gitignore
     repos: |
+      rostools/tutorial-github-intro
+      rostools/tutorial-project-management-intro
+      rostools/tutorial-quarto-website-intro
       rostools/coding-club
       rostools/r-cubed
       rostools/git4cats
