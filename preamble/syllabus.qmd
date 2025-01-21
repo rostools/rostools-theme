@@ -1,7 +1,5 @@
 # Syllabus {#sec-syllabus}
 
-{{< include ../includes/_wip.qmd >}}
-
 Objectives:
 
 -   Item 1

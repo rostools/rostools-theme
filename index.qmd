@@ -1,7 +1,5 @@
 # Welcome!
 
-{{< include includes/_wip.qmd >}}
-
 ## Test the shortcodes
 
 {{< text_snippet review_note >}}
