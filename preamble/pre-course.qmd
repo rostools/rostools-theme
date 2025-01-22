@@ -1,7 +1,5 @@
 # Pre-course tasks {#sec-pre-course}
 
-{{< include ../includes/_wip.qmd >}}
-
 ```{r}
 #| echo: false
 # To trigger downlit.

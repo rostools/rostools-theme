@@ -10,6 +10,7 @@ book:
   date: last-modified
   repo-url: https://github.com/rostools/REPO
   site-url: https://REPO.rostools.org/
+  body-header: "{{< text_snippet wip >}}"
   chapters:
     - index.qmd
     - part: "Preamble"
