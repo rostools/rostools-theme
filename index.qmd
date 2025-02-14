@@ -15,3 +15,7 @@
 {{< text_snippet code_appendix >}}
 
 {{< text_snippet discord_text >}}
+
+## Test includes
+
+{{< include _extensions/r3-theme/includes/reading-website.qmd >}}
