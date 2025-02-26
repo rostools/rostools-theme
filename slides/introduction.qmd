@@ -3,7 +3,7 @@ format: r3-theme-revealjs
 search: false
 ---
 
-# Welcome to the TODO: add course name
+# Welcome to the TODO: add workshop name
 
 -   :heavy_check_mark: Accept the GitHub Organization invite
 -   :heavy_check_mark: Accept the Slack channel invite
@@ -15,7 +15,7 @@ Introduce instructors and helpers after welcoming everyone and getting
 them to do this.
 :::
 
-## :raising_hand_woman: Before this course... How many knew or have heard about ... {.center}
+## :raising_hand_woman: Before this workshop... How many knew or have heard about ... {.center}
 
 ::: notes
 Raise your hands.
@@ -35,15 +35,15 @@ nurturing a better and healthier culture. We all can be involved in
 that, we all have that power to do something, even if its small thing.
 :::
 
-## Goal of this course: Start changing the culture by providing the training {.center}
+## Goal of this workshop: Start changing the culture by providing the training {.center}
 
-# Course details
+# Workshop details
 
 ## Setup and layout {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
--   Course is mix of:
+-   Workshop is mix of:
     -   "Code-alongs" (we type and explain, you type along)
     -   Hands-on coding, discussing, and reading exercises
     -   Group project (quickly go over it)
@@ -64,8 +64,8 @@ that, we all have that power to do something, even if its small thing.
 :::
 
 ::: notes
-Explain a bit more about the reading, why doing it, and that this course
-in particular has a lot more of it than more advanced courses.
+Explain a bit more about the reading, why doing it, and that this workshop
+in particular has a lot more of it than more advanced workshops.
 :::
 
 ## Getting or asking for help :raising_hand_woman::raising_hand_man: {.smaller}

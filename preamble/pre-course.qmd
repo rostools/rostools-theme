@@ -1,16 +1,16 @@
-# Pre-course tasks {#sec-pre-course}
+# Pre-workshop tasks {#sec-pre-workshop}
 
 ```{r}
 #| echo: false
 # To trigger downlit.
 ```
 
-In order to participate in this course, you must complete everything in
-this pre-course tasks section and finish with **completing the
+In order to participate in this workshop, you must complete everything in
+this pre-workshop tasks section and finish with **completing the
 [survey]()** at the end. These tasks are designed to make it easier for
-everyone to start the course with everything set up. For some of the
+everyone to start the workshop with everything set up. For some of the
 tasks, you might not understand why you need to do them, but you will
-likely understand why once the course begins.
+likely understand why once the workshop begins.
 
 Depending on your skills and knowledge, these tasks could take between
 **3-5 hrs to finish**, so we suggest planning a full day to complete
@@ -32,7 +32,7 @@ about them are found as you work through the tasks.
 4.  Read the syllabus (@sec-syllabus).
 5.  Read the [Code of
     Conduct](https://guides.rostools.org/conduct.html).
-6.  Complete the pre-course [survey](): This survey is pretty quick,
+6.  Complete the pre-workshop [survey](): This survey is pretty quick,
     maybe \~10 minutes. There will be some bits from the tasks that you
     will need to paste into this survey.
 
@@ -40,15 +40,15 @@ Check each section for exact details on completing these tasks.
 
 ## Learning objective
 
-In general, these pre-course tasks are meant to help prepare you for the
-course and make sure everything is setup properly so the first session
+In general, these pre-workshop tasks are meant to help prepare you for the
+workshop and make sure everything is setup properly so the first session
 runs smoothly. However, some of these tasks are meant for learning as
 well as for general setup, so we have defined the following learning
 objectives for this page:
 
 1.  TODO: List objectives
 
-## Reading the course website {#sec-reading-website}
+## Reading the workshop website {#sec-reading-website}
 
 ```{r}
 #| echo: false
@@ -68,26 +68,26 @@ cat(r3admin::read_common("installing-programs.md"), sep = "\n")
 
 ## TODO: Next section
 
-## Course basics
+## Workshop basics
 
 If you haven't read the syllabus, **please read it now**. Read over what
-the course will cover, what we expect you to learn by the end of it, and
+the workshop will cover, what we expect you to learn by the end of it, and
 what our basic assumptions are about who you are and what you already
 know. At the end of this section, we'll ask you a few questions to see
-if you understand what you'll learn in the course.
+if you understand what you'll learn in the workshop.
 
-One goal of the course is to teach about open science, and true to our
-mission, we practice what we preach. The course material is publicly
+One goal of the workshop is to teach about open science, and true to our
+mission, we practice what we preach. The workshop material is publicly
 accessible (all on this website) and [openly licensed]() so you can
 (re-)use it for free! The material is organized in the order that we
-will cover it in the course.
+will cover it in the workshop.
 
 We have a [Code of Conduct](https://guides.rostools.org/conduct.html).
 If you haven't read it, **read it now**. The survey involves a question
-about Conduct. We want to make sure this course is a supportive and safe
+about Conduct. We want to make sure this workshop is a supportive and safe
 environment for learning, so this Code of Conduct is quite important.
 
-You're almost done. Please fill out the pre-course survey to finish this
+You're almost done. Please fill out the pre-workshop survey to finish this
 section, either [at this link]().
 
-See you at the course!
+See you at the workshop!
