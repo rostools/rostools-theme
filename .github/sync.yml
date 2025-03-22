@@ -33,16 +33,16 @@ group:
       rostools/guides
 
   # In development and R-based repositories
-  - files:
-      - source: .github/workflows/common/add-to-project-dev.yml
-        dest: .github/workflows/add-to-project.yml
-      - source: .github/workflows/common/build-website-r.yml
-        dest: .github/workflows/build-website.yml
-      - source: justfile
-        dest: justfile
-    repos: |
-      rostools/r-pkg-intro
-      rostools/r-cubed-ise
+  # - files:
+  #     - source: .github/workflows/common/add-to-project-dev.yml
+  #       dest: .github/workflows/add-to-project.yml
+  #     - source: .github/workflows/common/build-website-r.yml
+  #       dest: .github/workflows/build-website.yml
+  #     - source: justfile
+  #       dest: justfile
+  #   repos: |
+  #     rostools/r-pkg-intro
+  #     rostools/r-cubed-ise
 
   # In development and non-R-based repositories
   - files:
