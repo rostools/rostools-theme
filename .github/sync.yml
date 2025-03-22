@@ -10,10 +10,7 @@ group:
       - source: .gitignore
         dest: .gitignore
     repos: |
-      rostools/tutorial-github-intro
-      rostools/tutorial-project-management-intro
-      rostools/tutorial-quarto-website-intro
-      rostools/coding-club
+      rostools/github-intro
       rostools/r-cubed
       rostools/git4cats
       rostools/r-cubed-advanced
@@ -30,7 +27,6 @@ group:
       - source: _common/justfile-r
         dest: justfile
     repos: |
-      rostools/coding-club
       rostools/r-cubed-advanced
       rostools/r-cubed-intermediate
       rostools/r-cubed-intro
@@ -57,7 +53,5 @@ group:
       - source: justfile
         dest: justfile
     repos: |
-      rostools/tutorial-github-intro
-      rostools/tutorial-project-management-intro
-      rostools/tutorial-quarto-website-intro
+      rostools/github-intro
       rostools/git4cats
