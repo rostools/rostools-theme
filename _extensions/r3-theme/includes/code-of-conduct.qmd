@@ -1,4 +1,4 @@
-# Code of Conduct
+# Code of conduct
 
 Science thrives on diversity of thought and origin and we value the
 participation of every member of the scientific community and want all
@@ -32,7 +32,7 @@ and any online forums such as GitHub and Twitter. By participating,
 participants indicate their acceptance of the procedures by which the
 instructors and organizers resolves any Code of Conduct incidents.
 
-## Expected Behavior
+## Expected behavior
 
 All workshop participants are expected to show respect and courtesy to
 others. All interactions should be professional regardless of platform:
@@ -52,7 +52,7 @@ See the [four social
 rules](https://www.recurse.com/manual#sub-sec-social-rules) for further
 recommendations and details on proper behaviour.
 
-## Unacceptable Behavior
+## Unacceptable behavior
 
 Examples of unacceptable behavior by participants include:
 
@@ -74,7 +74,7 @@ Examples of unacceptable behavior by participants include:
     recording) with someone after being asked to stop
 -   Publication of private communication without consent
 
-## Consequences of Unacceptable Behavior
+## Consequences of unacceptable behavior
 
 Participants who are asked, either in person or online, to stop any
 inappropriate behavior are expected to comply immediately. If a
