@@ -11,7 +11,7 @@ search: false
 -   :heavy_check_mark: Introduce yourself to your group members
 
 ::: notes
-Introduce instructors and helpers after welcoming everyone and getting
+Introduce teachers and helpers after welcoming everyone and getting
 them to do this.
 :::
 
