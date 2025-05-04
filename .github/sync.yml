@@ -9,6 +9,8 @@ group:
         deleteOrphaned: true
       - source: .gitignore
         dest: .gitignore
+      - source: .pre-commit-config.yaml
+        dest: .pre-commit-config.yaml
     repos: |
       rostools/github-intro
       rostools/r-cubed
@@ -26,6 +28,8 @@ group:
         dest: .github/workflows/build-website.yml
       - source: _common/justfile-r
         dest: justfile
+      - source: _common/.air.toml
+        dest: .air.toml
     repos: |
       rostools/r-cubed-advanced
       rostools/r-cubed-intermediate
