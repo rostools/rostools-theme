@@ -2,7 +2,7 @@
   just --list --unsorted
 
 # Run all recipes
-run-all: check-spelling build-website 
+run-all: check-spelling build-website
 
 # Installs the pre-commit hooks, if not done already
 install-pre-commit:
@@ -13,5 +13,5 @@ check-spelling:
   uvx typos
 
 # Build Quarto website
-build-website: 
+build-website:
   quarto render

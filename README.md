@@ -19,7 +19,7 @@ It also has an associated GitHub Action to use:
 
 ``` r
 usethis::use_github_action(
-  "build-website", 
+  "build-website",
   url = "https://raw.githubusercontent.com/quarto-dev/quarto-actions/main/examples/quarto-publish-example.yml"
 )
 ```
@@ -39,4 +39,3 @@ to the `_extensions/` folder and paste in the `slides/` file:
 ``` bash
 ln -s -r _extension slides
 ```
-
