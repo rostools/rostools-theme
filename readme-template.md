@@ -14,7 +14,7 @@ For more detail on the workshop, check out the [welcome page]().
 
 The lectures and lessons in this workshop are designed to be presented
 primarily with a participatory live-coding approach. This involves an
-instructor typing and running code in
+teacher typing and running code in
 [RStudio](https://posit.co/products/open-source/rstudio/) in front of
 the class, while the class follows along using their own computers.
 Challenges are interspersed in the lesson material, allowing
@@ -33,7 +33,7 @@ The teaching material is found mainly in these locations:
     code-along material)
 - `appendix/` folder: Contains the files used to support the workshop,
     such as pre-workshop tasks, code of conduct, resources, and
-    instructions for instructors.
+    instructions for teachers.
 - `slides/`: The lecture slides are rendered into HTML slides from
     Markdown.
 
@@ -44,8 +44,8 @@ follows the file and folder structure conventions from that package.
 
 If you are interested in contributing to the workshop material, please
 refer to the [contributing guidelines](CONTRIBUTING.md). For guidelines
-on how to be a helper or instructor, check out the [For
-Instructors](https://r-cubed.rostools.org/for-instructors.html) page.
+on how to be a helper or teacher, check out the [For
+teachers](https://r-cubed.rostools.org/for-teachers.html) page.
 
 Please note that the project is released with a [Contributor Code of
 Conduct](CODE_OF_CONDUCT.md). By contributing to or being involved in
