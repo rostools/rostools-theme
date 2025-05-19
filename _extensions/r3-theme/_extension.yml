@@ -40,8 +40,10 @@ contributes:
       navbar:
         logo: "favicon-white.ico"
         logo-alt: "Graphic of a capital R with a 3 as a superscript."
-        search: true
         pinned: true
+      search:
+        location: navbar
+        type: textbox
       favicon: "favicon.ico"
       repo-branch: main
       repo-actions: [edit, issue, source]
