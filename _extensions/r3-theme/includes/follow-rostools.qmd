@@ -1,0 +1,9 @@
+::: {.callout-tip appearance="minimal"}
+:star: Do you find this workshop material useful?
+
+Please consider following the [rostools GitHub
+organisation](https://github.com/rostools) to show your appreciation!
+You can also "star" this course's repository to keep it in your list of
+saved repositories, so it’s easy to find again later. As a plus, it
+helps give our project more visibility! :star2:
+:::
