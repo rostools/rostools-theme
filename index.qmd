@@ -1,5 +1,7 @@
 # Welcome!
 
+Test of **bold** and *italic* text.
+
 ## Test the shortcodes
 
 {{< text_snippet review_note >}}
