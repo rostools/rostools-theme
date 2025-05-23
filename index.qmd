@@ -17,3 +17,35 @@
 ## Test includes
 
 {{< include _extensions/r3-theme/includes/reading-website.qmd >}}
+
+## Test buttons 
+
+[Button](link/to/nowhere){.btn .btn-primary role="button"}
+[Button](link/to/nowhere){.btn .btn-secondary role="button"}
+
+# Test scss rules
+
+::: slide-deck
+Slide deck style
+:::
+
+## Test scss defaults 
+
+```{mermaid}
+%%| fig-cap: "Simple mermaid diagram"
+flowchart TB
+    user(["User<br>[person]"])
+    subgraph sprout [Python package]
+        package["Data package functions<br>[Python]<br><br>Create, manage, and check a data package and its 'properties' (metadata)."]
+    end
+    output[("Filesystem<br><br>Stored data and metadata on a local or server filesystem.")]
+
+    user --> sprout:::system
+    package --> metadata
+    sprout --> output:::external
+
+    classDef system fill:none
+    classDef external fill:lightgrey
+```
+
+This is a sentence with a keybinding {{< kbd Ctrl-Shift-P >}} in the middle of it.
