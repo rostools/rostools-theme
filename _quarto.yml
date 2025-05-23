@@ -6,7 +6,9 @@ project:
 
 book:
   title: Testing
-  author: Luke W. Johnston and Signe Kirk Brødbæk
+  author: 
+    - Luke W. Johnston
+    - Signe Kirk Brødbæk
   date: last-modified
   repo-url: https://github.com/rostools/REPO
   site-url: https://REPO.rostools.org/
