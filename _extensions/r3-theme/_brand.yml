@@ -1,5 +1,5 @@
-meta: 
-  name: 
+meta:
+  name:
     full: ROStools
   link:
     github: https://github.com/rostools
@@ -12,7 +12,7 @@ typography:
       source: "bunny"
     - family: source code pro
       source: "bunny"
-  base: 
+  base:
     family: quattrocento sans
     size: 18px
   headings: outfit

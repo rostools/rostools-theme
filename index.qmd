@@ -18,7 +18,7 @@
 
 {{< include _extensions/r3-theme/includes/reading-website.qmd >}}
 
-## Test buttons 
+## Test buttons
 
 [Button](link/to/nowhere){.btn .btn-primary role="button"}
 [Button](link/to/nowhere){.btn .btn-secondary role="button"}
@@ -29,7 +29,7 @@
 Slide deck style
 :::
 
-## Test scss defaults 
+## Test scss defaults
 
 ```{mermaid}
 %%| fig-cap: "Simple mermaid diagram"
