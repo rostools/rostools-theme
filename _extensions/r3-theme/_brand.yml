@@ -15,7 +15,7 @@ typography:
   base:
     family: quattrocento sans
     size: 18px
-  headings: 
+  headings:
     family: outfit
     weight: 400
   monospace: source code pro
