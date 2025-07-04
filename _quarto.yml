@@ -15,20 +15,6 @@ book:
   body-header: "{{< text_snippet wip >}}"
   chapters:
     - index.qmd
-    - part: "Preamble"
-      chapters:
-      - preamble/syllabus.qmd
-      - preamble/schedule.qmd
-      - preamble/pre-workshop.qmd
-    - part: "Sessions"
-      chapters:
-      - sessions/introduction.qmd
-      - sessions/lesson.qmd
-      - sessions/what-next.qmd
-  appendices:
-    - appendix/social.qmd
-    - appendix/for-teachers.qmd
-    - appendix/references.qmd
   page-footer:
     center:
       - text: "License: CC BY 4.0 {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}"
