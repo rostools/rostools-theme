@@ -8,7 +8,6 @@ contributes:
   format:
     common:
       shortcodes:
-        - debruine/glossary
         - quarto-ext/fontawesome
     html:
       highlight-style: a11y
