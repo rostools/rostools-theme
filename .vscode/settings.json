@@ -21,11 +21,6 @@
   ],
   "conventional-branch.format": "{Type}/{Branch}",
   "files.insertFinalNewline": true,
-  "conventionalCommits.scopes": [
-    "preamble",
-    "sessions",
-    "appendix"
-  ],
   "[r]": {
     "editor.formatOnSave": true
   },
