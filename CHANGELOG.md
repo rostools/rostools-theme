@@ -1,3 +1,14 @@
+## 1.3.0 (2025-07-09)
+
+### Feat
+
+- :sparkles: add Lua VS Code extension recommendation
+
+### Fix
+
+- :pencil2: forgot to update the extension title
+- :fire: the `code-appendix` text snippet didn't work, removed
+
 ## 1.2.0 (2025-07-04)
 
 ### Feat
