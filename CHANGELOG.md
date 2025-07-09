@@ -1,3 +1,9 @@
+## 1.3.1 (2025-07-09)
+
+### Fix
+
+- :pushpin: correct version in `_extension.yml`
+
 ## 1.3.0 (2025-07-09)
 
 ### Feat
