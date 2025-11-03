@@ -38,7 +38,7 @@ contributes:
     book:
       navbar:
         logo: "favicon-white.ico"
-        logo-alt: "Graphic of a capital R with a 3 as a superscript."
+        logo-alt: "Logo of a capitalised R with two curved arrows circling it."
         pinned: true
       search:
         location: navbar
