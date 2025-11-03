@@ -17,8 +17,8 @@ contributes:
       code-overflow: scroll
       from: markdown+emoji
       theme:
-        - brand
         - yeti
+        - brand
 
     revealjs:
       embed-resources: true
