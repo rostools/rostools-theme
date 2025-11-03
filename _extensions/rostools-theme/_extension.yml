@@ -49,8 +49,6 @@ contributes:
 
     csl: vancouver.csl
 
-    reference-location: margin
-    citation-location: margin
     crossref:
       chapters: true
 
