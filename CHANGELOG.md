@@ -1,3 +1,15 @@
+## 1.3.2 (2025-11-03)
+
+### Fix
+
+- :lipstick: using `margin` leads to weird behaviour in layout
+- :memo: fix logo alt text, it was the old text
+
+### Refactor
+
+- :fire: don't need this old logo
+- :lipstick: brand should overwrite the general theme
+
 ## 1.3.1 (2025-07-09)
 
 ### Fix
