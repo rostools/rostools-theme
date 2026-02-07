@@ -1,11 +1,11 @@
 local function ensureLatexDeps()
-  quarto.doc.use_latex_package("fontawesome5")
+  quarto.doc.use_latex_package("fontawesome6")
 end
 
 local function ensureHtmlDeps()
   quarto.doc.add_html_dependency({
     name = 'fontawesome6',
-    version = '1.2.0',
+    version = '6.7.2',
     stylesheets = {'assets/css/all.min.css', 'assets/css/latex-fontsize.css'}
   })
 end
@@ -44,7 +44,7 @@ return {
       group = icon
       icon = pandoc.utils.stringify(args[2])
     end
-
+    
     local title = pandoc.utils.stringify(kwargs["title"])
     if not isEmpty(title) then
       title = " title=\"" .. title  .. "\""
@@ -58,7 +58,7 @@ return {
     end
 
     local size = pandoc.utils.stringify(kwargs["size"])
-
+    
     -- detect html (excluding epub which won't handle fa)
     if quarto.doc.is_format("html:js") then
       ensureHtmlDeps()
@@ -72,10 +72,15 @@ return {
     -- detect pdf / beamer / latex / etc
     elseif quarto.doc.is_format("pdf") then
       ensureLatexDeps()
+      local options = ""
+      if (group == "regular") then
+        options = "[regular]"
+      end
+      local icons = "\\faIcon" .. options .. "{" .. icon .. "}"
       if isEmpty(isValidSize(size)) then
-        return pandoc.RawInline('tex', "\\faIcon{" .. icon .. "}")
+        return pandoc.RawInline('tex', icons)
       else
-        return pandoc.RawInline('tex', "{\\" .. size .. "\\faIcon{" .. icon .. "}}")
+        return pandoc.RawInline('tex', "{\\" .. size .. icons .. "}")
       end
     else
       return pandoc.Null()
