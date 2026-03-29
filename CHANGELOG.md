@@ -1,3 +1,9 @@
+## 1.4.0 (2026-03-29)
+
+### Feat
+
+- :sparkles: add common logos to images in theme
+
 ## 1.3.3 (2026-02-07)
 
 ### Refactor
