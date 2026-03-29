@@ -1,3 +1,9 @@
+## 1.4.1 (2026-03-29)
+
+### Fix
+
+- :pencil2: use `https` for URL in `vancouver.csl`
+
 ## 1.4.0 (2026-03-29)
 
 ### Feat
