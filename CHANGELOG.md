@@ -1,3 +1,9 @@
+## 1.4.2 (2026-03-30)
+
+### Refactor
+
+- :fire: `discord_text` snippet isn't used anymore
+
 ## 1.4.1 (2026-03-29)
 
 ### Fix
