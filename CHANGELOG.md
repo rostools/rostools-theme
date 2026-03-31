@@ -1,3 +1,9 @@
+## 1.5.0 (2026-03-31)
+
+### Feat
+
+- :sparkles: include a callout for only origami hats to go up
+
 ## 1.4.2 (2026-03-30)
 
 ### Refactor
