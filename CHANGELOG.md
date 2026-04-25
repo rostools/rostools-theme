@@ -1,3 +1,9 @@
+## 1.6.0 (2026-04-25)
+
+### Feat
+
+- 💄 add theming similar to Seedcase
+
 ## 1.5.0 (2026-03-31)
 
 ### Feat
