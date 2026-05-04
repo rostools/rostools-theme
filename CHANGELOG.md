@@ -87,7 +87,7 @@
 - :pencil2: forgot to end with `()` in includes
 - change `includes/` to `text_snippet` in reading task code snippet (#28)
 - :bug: need to include links to the extensions
-- search bar doesn't show when ype is overlay
+- search bar doesn't show when type is overlay
 - forgot to connect the CSL to the settings
 - this needs to override other settings
 - remove freezing, it isn't necessary by default
